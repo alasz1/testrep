@@ -42,4 +42,6 @@ app.use(function(err, req, res, next) {
 console.log("Tämä on kommentti masteriin")
 console.log("Hello World!");
 
+console.log("uusi kommentti")
+
 module.exports = app;
