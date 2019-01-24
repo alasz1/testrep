@@ -38,4 +38,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+
+console.log("Tämä on kommentti masteriin")
+
 module.exports = app;
